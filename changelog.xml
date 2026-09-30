@@ -56,5 +56,40 @@
       </rollback>
   </changeSet> -->
 
+    <changeSet author="adeelmalik (generated)" id="1790789994038-1">
+        <createIndex indexName="SYS_C007694" tableName="EMPLOYEE" unique="true">
+            <column name="ID"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="adeelmalik (generated)" id="1790789994038-2">
+        <createIndex indexName="SYS_C007696" tableName="CONTRACTORS" unique="true">
+            <column name="ID"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="adeelmalik (generated)" id="1790789994038-3">
+        <addColumn tableName="SALES">
+            <column name="COUNTRY" type="VARCHAR2(100 BYTE)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="adeelmalik (generated)" id="1790789994038-4">
+        <addColumn tableName="EMPLOYEE">
+            <column name="STATE" type="VARCHAR2(5 BYTE)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="adeelmalik (generated)" id="1790789994038-5">
+        <dropView viewName="DIM_GRP_CLAIM_DETAIL_R_VW"/>
+    </changeSet>
+    <changeSet author="adeelmalik (generated)" id="1790789994038-6">
+        <dropTable tableName="CUSTOMERS"/>
+    </changeSet>
+    <changeSet author="adeelmalik (generated)" id="1790789994038-7">
+        <dropTable tableName="NEWTABLE"/>
+    </changeSet>
+    <changeSet author="adeelmalik (generated)" id="1790789994038-8">
+        <dropIndex indexName="SYS_C0011182" tableName="EMPLOYEE"/>
+    </changeSet>
+    <changeSet author="adeelmalik (generated)" id="1790789994038-9">
+        <dropIndex indexName="SYS_C0011184" tableName="CONTRACTORS"/>
+    </changeSet>
 </databaseChangeLog>
 

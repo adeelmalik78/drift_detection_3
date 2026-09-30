@@ -22,6 +22,13 @@ liquibase --reports-enabled=true \
              diff
 
 
+liquibase --reports-enabled=true \
+             --reports-path=reports \
+             --reports-name=06.diff_report.html \
+             --changelog-file=newchanges.oracle.sql \
+             diff-changelog
+
+
 # liquibase.drift.severity=[0|1|2|3|4]
 # liquibase.drift.severity.missing=[0|1|2|3|4]
 # liquibase.drift.severity.unexpected=[0|1|2|3|4]
