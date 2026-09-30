@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+  xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+  xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
+    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext 
+    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+    http://www.liquibase.org/xml/ns/pro 
+    http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.1.xsd" >
+
+  <changeSet id="DB-1011" author="nvoxland">
+      <sqlFile path="main/100_ddl/01_sales.sql"/>
+      <rollback>
+        <sqlFile path="main/100_ddl/01_sales-rollback.sql"/>
+      </rollback>
+  </changeSet>
+
+  <changeSet id="DB-1012" author="nvoxland">
+      <sqlFile path="main/100_ddl/02_employee.sql"/>
+      <rollback>
+        <sqlFile path="main/100_ddl/02_employee-rollback.sql"/>
+      </rollback>
+  </changeSet>
+
+  <changeSet id="DB-1013" author="nvoxland">
+      <sqlFile path="main/100_ddl/03_contractors.sql"/>
+      <rollback>
+        <sqlFile path="main/100_ddl/03_contractors-rollback.sql"/>
+      </rollback>
+  </changeSet>
+
+  <changeSet id="DB-1014" author="nvoxland">
+      <sqlFile path="main/100_ddl/04_customers.sql"/>
+      <rollback>
+        <sqlFile path="main/100_ddl/04_customers-rollback.sql"/>
+      </rollback>
+  </changeSet>
+
+
+
+  <!-- <changeSet id="DB-1014" author="nvoxland">
+      <sqlFile path="main/200_procedures/add_employee_v3.sql"/>
+      <rollback>
+        <sqlFile path="main/200_procedures/add_employee_v2.sql"/>
+      </rollback>
+  </changeSet> -->
+
+
+  <!-- <changeSet id="DB-1014" author="nvoxland">
+      <sqlFile path="main/200_procedures/add_employee_v4.sql"/>
+      <rollback>
+        <sqlFile path="main/200_procedures/add_employee_v2.sql"/>
+      </rollback>
+  </changeSet> -->
+
+</databaseChangeLog>
+
