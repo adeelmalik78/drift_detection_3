@@ -1,4 +1,3 @@
 .liquibase
-reports/
 liquibase.properties
 .DS_Store

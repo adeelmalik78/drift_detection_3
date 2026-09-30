@@ -1,0 +1,26 @@
+{
+  "diff": {
+    "diffFormat": 1,
+    "created": "Wed Sep 30 12:14:39 CDT 2026",
+    "databases": {
+      "reference": {
+        "majorVersion": "Oracle Database 19c Enterprise Edition Release 19",
+        "minorVersion": "0",
+        "name": "Offline oracle",
+        "url": "offline:oracle?snapshot=mySnapshot.json"
+      },
+      "target": {
+        "majorVersion": "Oracle Database 19c Enterprise Edition Release 19",
+        "minorVersion": "0",
+        "name": "Oracle",
+        "url": "jdbc:oracle:thin:@cs-oracledb.liquibase.net:1521/PP_DEV"
+      }
+    },
+    "missingObjects": [ ]
+    ,
+    "unexpectedObjects": [ ]
+    ,
+    "changedObjects": [ ]
+    
+  }
+}

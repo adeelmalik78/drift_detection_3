@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "created": "2026-09-29T12:05:38.805",
+    "created": "2026-09-30T12:09:15.988",
     "database": {
       "productVersion": "Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production\nVersion 19.3.0.0.0",
       "shortName": "oracle",
@@ -16,7 +16,7 @@
           "catalog": {
             "default": true,
             "name": "LIQUIBASE_USER",
-            "snapshotId": "525f100"
+            "snapshotId": "ab5d100"
           }
         }
       ]
@@ -27,8 +27,8 @@
             "name": "ADDRESS1",
             "nullable": true,
             "order": "3!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f110",
-            "snapshotId": "525f113",
+            "relation": "liquibase.structure.core.Table#ab5d110",
+            "snapshotId": "ab5d113",
             "type": {
               "columnSize": "50!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -42,8 +42,8 @@
             "name": "ADDRESS1",
             "nullable": true,
             "order": "3!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f102",
-            "snapshotId": "525f105",
+            "relation": "liquibase.structure.core.Table#ab5d102",
+            "snapshotId": "ab5d105",
             "type": {
               "columnSize": "50!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -57,8 +57,8 @@
             "name": "ADDRESS1",
             "nullable": true,
             "order": "3!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f118",
-            "snapshotId": "525f121",
+            "relation": "liquibase.structure.core.Table#ab5d118",
+            "snapshotId": "ab5d121",
             "type": {
               "columnSize": "50!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -72,8 +72,8 @@
             "name": "ADDRESS2",
             "nullable": true,
             "order": "4!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f110",
-            "snapshotId": "525f114",
+            "relation": "liquibase.structure.core.Table#ab5d110",
+            "snapshotId": "ab5d114",
             "type": {
               "columnSize": "50!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -87,8 +87,8 @@
             "name": "ADDRESS2",
             "nullable": true,
             "order": "4!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f102",
-            "snapshotId": "525f106",
+            "relation": "liquibase.structure.core.Table#ab5d102",
+            "snapshotId": "ab5d106",
             "type": {
               "columnSize": "50!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -102,8 +102,8 @@
             "name": "ADDRESS2",
             "nullable": true,
             "order": "4!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f118",
-            "snapshotId": "525f122",
+            "relation": "liquibase.structure.core.Table#ab5d118",
+            "snapshotId": "ab5d122",
             "type": {
               "columnSize": "50!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -117,8 +117,8 @@
             "name": "AUTHOR",
             "nullable": false,
             "order": "2!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f126",
-            "snapshotId": "525f128",
+            "relation": "liquibase.structure.core.Table#ab5d126",
+            "snapshotId": "ab5d128",
             "type": {
               "columnSize": "255!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -132,8 +132,8 @@
             "name": "CITY",
             "nullable": true,
             "order": "5!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f110",
-            "snapshotId": "525f115",
+            "relation": "liquibase.structure.core.Table#ab5d110",
+            "snapshotId": "ab5d115",
             "type": {
               "columnSize": "30!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -147,8 +147,8 @@
             "name": "CITY",
             "nullable": true,
             "order": "5!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f102",
-            "snapshotId": "525f107",
+            "relation": "liquibase.structure.core.Table#ab5d102",
+            "snapshotId": "ab5d107",
             "type": {
               "columnSize": "30!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -162,8 +162,8 @@
             "name": "CITY",
             "nullable": true,
             "order": "5!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f118",
-            "snapshotId": "525f123",
+            "relation": "liquibase.structure.core.Table#ab5d118",
+            "snapshotId": "ab5d123",
             "type": {
               "columnSize": "30!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -177,8 +177,8 @@
             "name": "COMMENTS",
             "nullable": true,
             "order": "9!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f126",
-            "snapshotId": "525f135",
+            "relation": "liquibase.structure.core.Table#ab5d126",
+            "snapshotId": "ab5d135",
             "type": {
               "columnSize": "255!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -192,8 +192,8 @@
             "name": "CONTEXTS",
             "nullable": true,
             "order": "12!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f126",
-            "snapshotId": "525f138",
+            "relation": "liquibase.structure.core.Table#ab5d126",
+            "snapshotId": "ab5d138",
             "type": {
               "columnSize": "255!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -207,8 +207,8 @@
             "name": "DATEEXECUTED",
             "nullable": false,
             "order": "4!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f126",
-            "snapshotId": "525f130",
+            "relation": "liquibase.structure.core.Table#ab5d126",
+            "snapshotId": "ab5d130",
             "type": {
               "columnSize": "11!{java.lang.Integer}",
               "dataTypeId": "93!{java.lang.Integer}",
@@ -221,8 +221,8 @@
             "name": "DEPLOYMENT_ID",
             "nullable": true,
             "order": "14!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f126",
-            "snapshotId": "525f140",
+            "relation": "liquibase.structure.core.Table#ab5d126",
+            "snapshotId": "ab5d140",
             "type": {
               "columnSize": "10!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -236,8 +236,8 @@
             "name": "DESCRIPTION",
             "nullable": true,
             "order": "8!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f126",
-            "snapshotId": "525f134",
+            "relation": "liquibase.structure.core.Table#ab5d126",
+            "snapshotId": "ab5d134",
             "type": {
               "columnSize": "255!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -251,8 +251,8 @@
             "name": "EXECTYPE",
             "nullable": false,
             "order": "6!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f126",
-            "snapshotId": "525f132",
+            "relation": "liquibase.structure.core.Table#ab5d126",
+            "snapshotId": "ab5d132",
             "type": {
               "columnSize": "10!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -266,8 +266,8 @@
             "name": "FILENAME",
             "nullable": false,
             "order": "3!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f126",
-            "snapshotId": "525f129",
+            "relation": "liquibase.structure.core.Table#ab5d126",
+            "snapshotId": "ab5d129",
             "type": {
               "columnSize": "255!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -281,8 +281,8 @@
             "name": "FIRST_NAME",
             "nullable": true,
             "order": "2!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f148",
-            "snapshotId": "525f150",
+            "relation": "liquibase.structure.core.Table#ab5d148",
+            "snapshotId": "ab5d150",
             "type": {
               "columnSize": "50!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -296,8 +296,8 @@
             "name": "ID",
             "nullable": false,
             "order": "1!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f110",
-            "snapshotId": "525f111",
+            "relation": "liquibase.structure.core.Table#ab5d110",
+            "snapshotId": "ab5d111",
             "type": {
               "dataTypeId": "3!{java.lang.Integer}",
               "decimalDigits": "0!{java.lang.Integer}",
@@ -310,8 +310,8 @@
             "name": "ID",
             "nullable": false,
             "order": "1!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f102",
-            "snapshotId": "525f103",
+            "relation": "liquibase.structure.core.Table#ab5d102",
+            "snapshotId": "ab5d103",
             "type": {
               "dataTypeId": "3!{java.lang.Integer}",
               "decimalDigits": "0!{java.lang.Integer}",
@@ -324,8 +324,8 @@
             "name": "ID",
             "nullable": false,
             "order": "1!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f126",
-            "snapshotId": "525f127",
+            "relation": "liquibase.structure.core.Table#ab5d126",
+            "snapshotId": "ab5d127",
             "type": {
               "columnSize": "255!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -339,8 +339,8 @@
             "name": "ID",
             "nullable": false,
             "order": "1!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f141",
-            "snapshotId": "525f142",
+            "relation": "liquibase.structure.core.Table#ab5d141",
+            "snapshotId": "ab5d142",
             "type": {
               "dataTypeId": "3!{java.lang.Integer}",
               "decimalDigits": "0!{java.lang.Integer}",
@@ -353,8 +353,8 @@
             "name": "ID",
             "nullable": false,
             "order": "1!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f118",
-            "snapshotId": "525f119",
+            "relation": "liquibase.structure.core.Table#ab5d118",
+            "snapshotId": "ab5d119",
             "type": {
               "dataTypeId": "3!{java.lang.Integer}",
               "decimalDigits": "0!{java.lang.Integer}",
@@ -367,8 +367,8 @@
             "name": "ID",
             "nullable": true,
             "order": "1!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f148",
-            "snapshotId": "525f149",
+            "relation": "liquibase.structure.core.Table#ab5d148",
+            "snapshotId": "ab5d149",
             "type": {
               "dataTypeId": "3!{java.lang.Integer}",
               "decimalDigits": "0!{java.lang.Integer}",
@@ -381,8 +381,8 @@
             "name": "LABELS",
             "nullable": true,
             "order": "13!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f126",
-            "snapshotId": "525f139",
+            "relation": "liquibase.structure.core.Table#ab5d126",
+            "snapshotId": "ab5d139",
             "type": {
               "columnSize": "255!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -396,8 +396,8 @@
             "name": "LAST_NAME",
             "nullable": true,
             "order": "3!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f148",
-            "snapshotId": "525f151",
+            "relation": "liquibase.structure.core.Table#ab5d148",
+            "snapshotId": "ab5d151",
             "type": {
               "columnSize": "50!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -411,8 +411,8 @@
             "name": "LIQUIBASE",
             "nullable": true,
             "order": "11!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f126",
-            "snapshotId": "525f137",
+            "relation": "liquibase.structure.core.Table#ab5d126",
+            "snapshotId": "ab5d137",
             "type": {
               "columnSize": "20!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -426,8 +426,8 @@
             "name": "LOCKED",
             "nullable": false,
             "order": "2!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f141",
-            "snapshotId": "525f143",
+            "relation": "liquibase.structure.core.Table#ab5d141",
+            "snapshotId": "ab5d143",
             "type": {
               "columnSize": "1!{java.lang.Integer}",
               "dataTypeId": "3!{java.lang.Integer}",
@@ -441,8 +441,8 @@
             "name": "LOCKEDBY",
             "nullable": true,
             "order": "4!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f141",
-            "snapshotId": "525f145",
+            "relation": "liquibase.structure.core.Table#ab5d141",
+            "snapshotId": "ab5d145",
             "type": {
               "columnSize": "255!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -456,8 +456,8 @@
             "name": "LOCKGRANTED",
             "nullable": true,
             "order": "3!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f141",
-            "snapshotId": "525f144",
+            "relation": "liquibase.structure.core.Table#ab5d141",
+            "snapshotId": "ab5d144",
             "type": {
               "columnSize": "11!{java.lang.Integer}",
               "dataTypeId": "93!{java.lang.Integer}",
@@ -470,8 +470,8 @@
             "name": "MD5SUM",
             "nullable": true,
             "order": "7!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f126",
-            "snapshotId": "525f133",
+            "relation": "liquibase.structure.core.Table#ab5d126",
+            "snapshotId": "ab5d133",
             "type": {
               "columnSize": "35!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -485,8 +485,8 @@
             "name": "NAME",
             "nullable": false,
             "order": "2!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f110",
-            "snapshotId": "525f112",
+            "relation": "liquibase.structure.core.Table#ab5d110",
+            "snapshotId": "ab5d112",
             "type": {
               "columnSize": "50!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -500,8 +500,8 @@
             "name": "NAME",
             "nullable": false,
             "order": "2!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f102",
-            "snapshotId": "525f104",
+            "relation": "liquibase.structure.core.Table#ab5d102",
+            "snapshotId": "ab5d104",
             "type": {
               "columnSize": "50!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -515,8 +515,8 @@
             "name": "NAME",
             "nullable": false,
             "order": "2!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f118",
-            "snapshotId": "525f120",
+            "relation": "liquibase.structure.core.Table#ab5d118",
+            "snapshotId": "ab5d120",
             "type": {
               "columnSize": "50!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -530,8 +530,8 @@
             "name": "N_CLAIM_COVERAGE_GROUP_SK_R",
             "nullable": true,
             "order": "9!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.View#525f152",
-            "snapshotId": "525f161",
+            "relation": "liquibase.structure.core.View#ab5d152",
+            "snapshotId": "ab5d161",
             "type": {
               "columnSize": "0!{java.lang.Integer}",
               "dataTypeId": "1111!{java.lang.Integer}",
@@ -544,8 +544,8 @@
             "name": "N_CLAIM_COVERAGE_SK_R",
             "nullable": true,
             "order": "8!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.View#525f152",
-            "snapshotId": "525f160",
+            "relation": "liquibase.structure.core.View#ab5d152",
+            "snapshotId": "ab5d160",
             "type": {
               "columnSize": "0!{java.lang.Integer}",
               "dataTypeId": "1111!{java.lang.Integer}",
@@ -558,8 +558,8 @@
             "name": "N_CLAIM_SK_R",
             "nullable": true,
             "order": "1!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.View#525f152",
-            "snapshotId": "525f153",
+            "relation": "liquibase.structure.core.View#ab5d152",
+            "snapshotId": "ab5d153",
             "type": {
               "columnSize": "0!{java.lang.Integer}",
               "dataTypeId": "1111!{java.lang.Integer}",
@@ -572,8 +572,8 @@
             "name": "N_POLICY_SK_R",
             "nullable": true,
             "order": "12!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.View#525f152",
-            "snapshotId": "525f164",
+            "relation": "liquibase.structure.core.View#ab5d152",
+            "snapshotId": "ab5d164",
             "type": {
               "columnSize": "0!{java.lang.Integer}",
               "dataTypeId": "1111!{java.lang.Integer}",
@@ -586,8 +586,8 @@
             "name": "ORDEREXECUTED",
             "nullable": false,
             "order": "5!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f126",
-            "snapshotId": "525f131",
+            "relation": "liquibase.structure.core.Table#ab5d126",
+            "snapshotId": "ab5d131",
             "type": {
               "dataTypeId": "3!{java.lang.Integer}",
               "decimalDigits": "0!{java.lang.Integer}",
@@ -600,8 +600,8 @@
             "name": "TAG",
             "nullable": true,
             "order": "10!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.Table#525f126",
-            "snapshotId": "525f136",
+            "relation": "liquibase.structure.core.Table#ab5d126",
+            "snapshotId": "ab5d136",
             "type": {
               "columnSize": "255!{java.lang.Integer}",
               "columnSizeUnit": "BYTE!{liquibase.structure.core.DataType$ColumnSizeUnit}",
@@ -615,8 +615,8 @@
             "name": "T_EVENT_TIMESTAMP_R_1",
             "nullable": true,
             "order": "4!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.View#525f152",
-            "snapshotId": "525f156",
+            "relation": "liquibase.structure.core.View#ab5d152",
+            "snapshotId": "ab5d156",
             "type": {
               "columnSize": "0!{java.lang.Integer}",
               "dataTypeId": "1111!{java.lang.Integer}",
@@ -629,8 +629,8 @@
             "name": "T_EVENT_TIMESTAMP_R_2",
             "nullable": true,
             "order": "5!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.View#525f152",
-            "snapshotId": "525f157",
+            "relation": "liquibase.structure.core.View#ab5d152",
+            "snapshotId": "ab5d157",
             "type": {
               "columnSize": "0!{java.lang.Integer}",
               "dataTypeId": "1111!{java.lang.Integer}",
@@ -643,8 +643,8 @@
             "name": "V_CLAIM_COVERAGE_CODE_R",
             "nullable": true,
             "order": "11!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.View#525f152",
-            "snapshotId": "525f163",
+            "relation": "liquibase.structure.core.View#ab5d152",
+            "snapshotId": "ab5d163",
             "type": {
               "columnSize": "0!{java.lang.Integer}",
               "dataTypeId": "1111!{java.lang.Integer}",
@@ -657,8 +657,8 @@
             "name": "V_CLAIM_IDENTIFIER_R",
             "nullable": true,
             "order": "10!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.View#525f152",
-            "snapshotId": "525f162",
+            "relation": "liquibase.structure.core.View#ab5d152",
+            "snapshotId": "ab5d162",
             "type": {
               "columnSize": "0!{java.lang.Integer}",
               "dataTypeId": "1111!{java.lang.Integer}",
@@ -671,8 +671,8 @@
             "name": "V_CLAIM_NUMBER_R",
             "nullable": true,
             "order": "7!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.View#525f152",
-            "snapshotId": "525f159",
+            "relation": "liquibase.structure.core.View#ab5d152",
+            "snapshotId": "ab5d159",
             "type": {
               "columnSize": "0!{java.lang.Integer}",
               "dataTypeId": "1111!{java.lang.Integer}",
@@ -685,8 +685,8 @@
             "name": "V_CLAIM_STATUS_REASON_CODE_R",
             "nullable": true,
             "order": "2!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.View#525f152",
-            "snapshotId": "525f154",
+            "relation": "liquibase.structure.core.View#ab5d152",
+            "snapshotId": "ab5d154",
             "type": {
               "columnSize": "0!{java.lang.Integer}",
               "dataTypeId": "1111!{java.lang.Integer}",
@@ -699,8 +699,8 @@
             "name": "V_REASON_CODE_R",
             "nullable": true,
             "order": "3!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.View#525f152",
-            "snapshotId": "525f155",
+            "relation": "liquibase.structure.core.View#ab5d152",
+            "snapshotId": "ab5d155",
             "type": {
               "columnSize": "0!{java.lang.Integer}",
               "dataTypeId": "1111!{java.lang.Integer}",
@@ -713,8 +713,8 @@
             "name": "V_REASON_FLAG_R",
             "nullable": true,
             "order": "6!{java.lang.Integer}",
-            "relation": "liquibase.structure.core.View#525f152",
-            "snapshotId": "525f158",
+            "relation": "liquibase.structure.core.View#ab5d152",
+            "snapshotId": "ab5d158",
             "type": {
               "columnSize": "0!{java.lang.Integer}",
               "dataTypeId": "1111!{java.lang.Integer}",
@@ -736,8 +736,8 @@
             ]
             ,
             "name": "PK_DATABASECHANGELOGLOCK",
-            "snapshotId": "525f146",
-            "table": "liquibase.structure.core.Table#525f141",
+            "snapshotId": "ab5d146",
+            "table": "liquibase.structure.core.Table#ab5d141",
             "unique": true
           }
         },
@@ -752,8 +752,8 @@
             ]
             ,
             "name": "SYS_C0011182",
-            "snapshotId": "525f124",
-            "table": "liquibase.structure.core.Table#525f118",
+            "snapshotId": "ab5d124",
+            "table": "liquibase.structure.core.Table#ab5d118",
             "unique": true
           }
         },
@@ -768,8 +768,8 @@
             ]
             ,
             "name": "SYS_C0011184",
-            "snapshotId": "525f116",
-            "table": "liquibase.structure.core.Table#525f110",
+            "snapshotId": "ab5d116",
+            "table": "liquibase.structure.core.Table#ab5d110",
             "unique": true
           }
         },
@@ -784,8 +784,8 @@
             ]
             ,
             "name": "SYS_C0011186",
-            "snapshotId": "525f108",
-            "table": "liquibase.structure.core.Table#525f102",
+            "snapshotId": "ab5d108",
+            "table": "liquibase.structure.core.Table#ab5d102",
             "unique": true
           }
         }
@@ -794,53 +794,53 @@
       "liquibase.structure.core.PrimaryKey": [
         {
           "primaryKey": {
-            "backingIndex": "liquibase.structure.core.Index#525f146",
+            "backingIndex": "liquibase.structure.core.Index#ab5d146",
             "columns": [
-              "liquibase.structure.core.Column#525f142"
+              "liquibase.structure.core.Column#ab5d142"
             ]
             ,
             "name": "PK_DATABASECHANGELOGLOCK",
-            "snapshotId": "525f147",
-            "table": "liquibase.structure.core.Table#525f141",
+            "snapshotId": "ab5d147",
+            "table": "liquibase.structure.core.Table#ab5d141",
             "validate": true
           }
         },
         {
           "primaryKey": {
-            "backingIndex": "liquibase.structure.core.Index#525f124",
+            "backingIndex": "liquibase.structure.core.Index#ab5d124",
             "columns": [
-              "liquibase.structure.core.Column#525f119"
+              "liquibase.structure.core.Column#ab5d119"
             ]
             ,
             "name": "SYS_C0011182",
-            "snapshotId": "525f125",
-            "table": "liquibase.structure.core.Table#525f118",
+            "snapshotId": "ab5d125",
+            "table": "liquibase.structure.core.Table#ab5d118",
             "validate": true
           }
         },
         {
           "primaryKey": {
-            "backingIndex": "liquibase.structure.core.Index#525f116",
+            "backingIndex": "liquibase.structure.core.Index#ab5d116",
             "columns": [
-              "liquibase.structure.core.Column#525f111"
+              "liquibase.structure.core.Column#ab5d111"
             ]
             ,
             "name": "SYS_C0011184",
-            "snapshotId": "525f117",
-            "table": "liquibase.structure.core.Table#525f110",
+            "snapshotId": "ab5d117",
+            "table": "liquibase.structure.core.Table#ab5d110",
             "validate": true
           }
         },
         {
           "primaryKey": {
-            "backingIndex": "liquibase.structure.core.Index#525f108",
+            "backingIndex": "liquibase.structure.core.Index#ab5d108",
             "columns": [
-              "liquibase.structure.core.Column#525f103"
+              "liquibase.structure.core.Column#ab5d103"
             ]
             ,
             "name": "SYS_C0011186",
-            "snapshotId": "525f109",
-            "table": "liquibase.structure.core.Table#525f102",
+            "snapshotId": "ab5d109",
+            "table": "liquibase.structure.core.Table#ab5d102",
             "validate": true
           }
         }
@@ -849,10 +849,10 @@
       "liquibase.structure.core.Schema": [
         {
           "schema": {
-            "catalog": "liquibase.structure.core.Catalog#525f100",
+            "catalog": "liquibase.structure.core.Catalog#ab5d100",
             "default": true,
             "name": "LIQUIBASE_USER",
-            "snapshotId": "525f101"
+            "snapshotId": "ab5d101"
           }
         }
       ]
@@ -861,128 +861,128 @@
         {
           "table": {
             "columns": [
-              "liquibase.structure.core.Column#525f111",
-              "liquibase.structure.core.Column#525f112",
-              "liquibase.structure.core.Column#525f113",
-              "liquibase.structure.core.Column#525f114",
-              "liquibase.structure.core.Column#525f115"
+              "liquibase.structure.core.Column#ab5d111",
+              "liquibase.structure.core.Column#ab5d112",
+              "liquibase.structure.core.Column#ab5d113",
+              "liquibase.structure.core.Column#ab5d114",
+              "liquibase.structure.core.Column#ab5d115"
             ]
             ,
             "default_tablespace": true,
             "indexes": [
-              "liquibase.structure.core.Index#525f116"
+              "liquibase.structure.core.Index#ab5d116"
             ]
             ,
             "name": "CONTRACTORS",
-            "primaryKey": "liquibase.structure.core.PrimaryKey#525f117",
-            "schema": "liquibase.structure.core.Schema#525f101",
-            "snapshotId": "525f110",
+            "primaryKey": "liquibase.structure.core.PrimaryKey#ab5d117",
+            "schema": "liquibase.structure.core.Schema#ab5d101",
+            "snapshotId": "ab5d110",
             "tablespace": "SYSTEM"
           }
         },
         {
           "table": {
             "columns": [
-              "liquibase.structure.core.Column#525f103",
-              "liquibase.structure.core.Column#525f104",
-              "liquibase.structure.core.Column#525f105",
-              "liquibase.structure.core.Column#525f106",
-              "liquibase.structure.core.Column#525f107"
+              "liquibase.structure.core.Column#ab5d103",
+              "liquibase.structure.core.Column#ab5d104",
+              "liquibase.structure.core.Column#ab5d105",
+              "liquibase.structure.core.Column#ab5d106",
+              "liquibase.structure.core.Column#ab5d107"
             ]
             ,
             "default_tablespace": true,
             "indexes": [
-              "liquibase.structure.core.Index#525f108"
+              "liquibase.structure.core.Index#ab5d108"
             ]
             ,
             "name": "CUSTOMERS",
-            "primaryKey": "liquibase.structure.core.PrimaryKey#525f109",
-            "schema": "liquibase.structure.core.Schema#525f101",
-            "snapshotId": "525f102",
+            "primaryKey": "liquibase.structure.core.PrimaryKey#ab5d109",
+            "schema": "liquibase.structure.core.Schema#ab5d101",
+            "snapshotId": "ab5d102",
             "tablespace": "SYSTEM"
           }
         },
         {
           "table": {
             "columns": [
-              "liquibase.structure.core.Column#525f127",
-              "liquibase.structure.core.Column#525f128",
-              "liquibase.structure.core.Column#525f129",
-              "liquibase.structure.core.Column#525f130",
-              "liquibase.structure.core.Column#525f131",
-              "liquibase.structure.core.Column#525f132",
-              "liquibase.structure.core.Column#525f133",
-              "liquibase.structure.core.Column#525f134",
-              "liquibase.structure.core.Column#525f135",
-              "liquibase.structure.core.Column#525f136",
-              "liquibase.structure.core.Column#525f137",
-              "liquibase.structure.core.Column#525f138",
-              "liquibase.structure.core.Column#525f139",
-              "liquibase.structure.core.Column#525f140"
+              "liquibase.structure.core.Column#ab5d127",
+              "liquibase.structure.core.Column#ab5d128",
+              "liquibase.structure.core.Column#ab5d129",
+              "liquibase.structure.core.Column#ab5d130",
+              "liquibase.structure.core.Column#ab5d131",
+              "liquibase.structure.core.Column#ab5d132",
+              "liquibase.structure.core.Column#ab5d133",
+              "liquibase.structure.core.Column#ab5d134",
+              "liquibase.structure.core.Column#ab5d135",
+              "liquibase.structure.core.Column#ab5d136",
+              "liquibase.structure.core.Column#ab5d137",
+              "liquibase.structure.core.Column#ab5d138",
+              "liquibase.structure.core.Column#ab5d139",
+              "liquibase.structure.core.Column#ab5d140"
             ]
             ,
             "default_tablespace": true,
             "name": "DATABASECHANGELOG",
-            "schema": "liquibase.structure.core.Schema#525f101",
-            "snapshotId": "525f126",
+            "schema": "liquibase.structure.core.Schema#ab5d101",
+            "snapshotId": "ab5d126",
             "tablespace": "SYSTEM"
           }
         },
         {
           "table": {
             "columns": [
-              "liquibase.structure.core.Column#525f142",
-              "liquibase.structure.core.Column#525f143",
-              "liquibase.structure.core.Column#525f144",
-              "liquibase.structure.core.Column#525f145"
+              "liquibase.structure.core.Column#ab5d142",
+              "liquibase.structure.core.Column#ab5d143",
+              "liquibase.structure.core.Column#ab5d144",
+              "liquibase.structure.core.Column#ab5d145"
             ]
             ,
             "default_tablespace": true,
             "indexes": [
-              "liquibase.structure.core.Index#525f146"
+              "liquibase.structure.core.Index#ab5d146"
             ]
             ,
             "name": "DATABASECHANGELOGLOCK",
-            "primaryKey": "liquibase.structure.core.PrimaryKey#525f147",
-            "schema": "liquibase.structure.core.Schema#525f101",
-            "snapshotId": "525f141",
+            "primaryKey": "liquibase.structure.core.PrimaryKey#ab5d147",
+            "schema": "liquibase.structure.core.Schema#ab5d101",
+            "snapshotId": "ab5d141",
             "tablespace": "SYSTEM"
           }
         },
         {
           "table": {
             "columns": [
-              "liquibase.structure.core.Column#525f119",
-              "liquibase.structure.core.Column#525f120",
-              "liquibase.structure.core.Column#525f121",
-              "liquibase.structure.core.Column#525f122",
-              "liquibase.structure.core.Column#525f123"
+              "liquibase.structure.core.Column#ab5d119",
+              "liquibase.structure.core.Column#ab5d120",
+              "liquibase.structure.core.Column#ab5d121",
+              "liquibase.structure.core.Column#ab5d122",
+              "liquibase.structure.core.Column#ab5d123"
             ]
             ,
             "default_tablespace": true,
             "indexes": [
-              "liquibase.structure.core.Index#525f124"
+              "liquibase.structure.core.Index#ab5d124"
             ]
             ,
             "name": "EMPLOYEE",
-            "primaryKey": "liquibase.structure.core.PrimaryKey#525f125",
-            "schema": "liquibase.structure.core.Schema#525f101",
-            "snapshotId": "525f118",
+            "primaryKey": "liquibase.structure.core.PrimaryKey#ab5d125",
+            "schema": "liquibase.structure.core.Schema#ab5d101",
+            "snapshotId": "ab5d118",
             "tablespace": "SYSTEM"
           }
         },
         {
           "table": {
             "columns": [
-              "liquibase.structure.core.Column#525f149",
-              "liquibase.structure.core.Column#525f150",
-              "liquibase.structure.core.Column#525f151"
+              "liquibase.structure.core.Column#ab5d149",
+              "liquibase.structure.core.Column#ab5d150",
+              "liquibase.structure.core.Column#ab5d151"
             ]
             ,
             "default_tablespace": true,
             "name": "SALES",
-            "schema": "liquibase.structure.core.Schema#525f101",
-            "snapshotId": "525f148",
+            "schema": "liquibase.structure.core.Schema#ab5d101",
+            "snapshotId": "ab5d148",
             "tablespace": "SYSTEM"
           }
         }
@@ -992,25 +992,25 @@
         {
           "view": {
             "columns": [
-              "liquibase.structure.core.Column#525f153",
-              "liquibase.structure.core.Column#525f154",
-              "liquibase.structure.core.Column#525f155",
-              "liquibase.structure.core.Column#525f156",
-              "liquibase.structure.core.Column#525f157",
-              "liquibase.structure.core.Column#525f158",
-              "liquibase.structure.core.Column#525f159",
-              "liquibase.structure.core.Column#525f160",
-              "liquibase.structure.core.Column#525f161",
-              "liquibase.structure.core.Column#525f162",
-              "liquibase.structure.core.Column#525f163",
-              "liquibase.structure.core.Column#525f164"
+              "liquibase.structure.core.Column#ab5d153",
+              "liquibase.structure.core.Column#ab5d154",
+              "liquibase.structure.core.Column#ab5d155",
+              "liquibase.structure.core.Column#ab5d156",
+              "liquibase.structure.core.Column#ab5d157",
+              "liquibase.structure.core.Column#ab5d158",
+              "liquibase.structure.core.Column#ab5d159",
+              "liquibase.structure.core.Column#ab5d160",
+              "liquibase.structure.core.Column#ab5d161",
+              "liquibase.structure.core.Column#ab5d162",
+              "liquibase.structure.core.Column#ab5d163",
+              "liquibase.structure.core.Column#ab5d164"
             ]
             ,
             "definition": "SELECT\n\t\t\n        a.n_claim_sk_r,\n\t\t\n        \n\t\t(CASE WHEN (C.V_LOB_TYPE_R IN ('VPS', 'STD', 'VPL', 'LTD') OR C.V_SOURCE_SYSTEM_NAME_R = 'CV') THEN\n\t\t a.v_claim_status_reason_code_r \n\t\tELSE ''\n\t\tEND) v_claim_status_reason_code_r,\n\t\t\n        b.v_reason_code_r, \n        b.t_event_timestamp_r             t_event_timestamp_r_1,\n        a.t_event_timestamp_r             t_event_timestamp_r_2,\n        CAST(NULL AS VARCHAR2(20))        v_reason_flag_r,\n        a.v_claim_number_r,\n        b.n_claim_coverage_sk_r,\n        b.n_claim_coverage_group_sk_r,\n        b.v_claim_identifier_r,\n        b.v_claim_coverage_code_r \n        ,\n        (\n            SELECT\n                n_policy_sk_r\n            FROM\n                dim_grp_claim_dir_r a2\n            WHERE\n                    a2.n_claim_sk_r = a.n_claim_sk_r\n                AND a2.v_active_status_r = 'Y'\n            GROUP BY\n                a2.n_policy_sk_r\n        )                                 n_policy_sk_r\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    FROM\n        ATOMIC.dim_grp_claim_dir_r c \n\t\tjoin (select * from ATOMIC.dim_grp_claim_detail_r where \n        (v_policy_prefix_r NOT IN ('ASL') or v_policy_prefix_r is null) and n_claim_sk_r > -1 and v_active_status_r = 'Y') a\n        on a.n_claim_sk_r = c.n_claim_sk_r\n\t\tand a.n_claim_sk_r > -1\n\t\tAND c.v_active_status_r = 'Y'\n\t\tand a.v_active_status_r = 'Y'\n\t\tand c.v_active_status_r = 'Y'\n        LEFT JOIN ATOMIC.dim_grp_claim_coverage_group_r  b ON a.n_claim_sk_r = b.n_claim_sk_r\n\t\t\t\t\t\t\t\t\t\t\t\t\tAND b.v_claim_number_r = c.v_claim_number_r\n                                                    AND b.v_active_status_r = 'Y'\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\tAND NOT (a.v_claim_status_reason_code_r in ('91', '92') and b.v_reason_code_r = '22')\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n    WHERE\n        b.t_event_timestamp_r = (\n            SELECT\n                MAX(c.t_event_timestamp_r)\n            FROM\n                ATOMIC.dim_grp_claim_coverage_group_r c\n            WHERE\n                b.v_claim_identifier_r = c.v_claim_identifier_r\n        )\n\t\t\n        \n\t\tAND  EXISTS (SELECT 1 \n\t\t                  FROM ATOMIC.dim_grp_claim_dir_r d \n\t\t\t\t\t\t  WHERE d.v_active_status_r = 'Y'\n                            AND d.v_lob_type_r <> 'ANNUITY' \n\t\t\t\t\t\t    AND d.n_claim_sk_r=a.n_claim_sk_r\n\t\t\t\t\t\t)\n\t\t\n\t\t\n\t\t\n    GROUP BY\n        A.N_CLAIM_SK_R,\n        \n       \n       (CASE WHEN (C.V_LOB_TYPE_R IN ('VPS', 'STD', 'VPL', 'LTD') OR C.V_SOURCE_SYSTEM_NAME_R = 'CV') THEN \n\t\t a.v_claim_status_reason_code_r\n\t\tELSE ''\n\t\tEND),\n    \n        b.v_reason_code_r,\n        b.t_event_timestamp_r,\n        a.t_event_timestamp_r,\n        a.v_claim_number_r,\n        b.n_claim_coverage_sk_r,\n        b.n_claim_coverage_group_sk_r,\n        B.V_CLAIM_IDENTIFIER_R,\n        b.v_claim_coverage_code_r",
             "editioning": false,
             "name": "DIM_GRP_CLAIM_DETAIL_R_VW",
-            "schema": "liquibase.structure.core.Schema#525f101",
-            "snapshotId": "525f152"
+            "schema": "liquibase.structure.core.Schema#ab5d101",
+            "snapshotId": "ab5d152"
           }
         }
       ]

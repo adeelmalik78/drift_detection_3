@@ -16,7 +16,10 @@ liquibase --reports-enabled=true \
              --drift-severity-missing=2 \
              --reference-url="offline:sqlserver?snapshot=mySnapshot.json"
 
-
+liquibase --reports-enabled=true \
+             --reports-path=reports \
+             --reports-name=06.diff_report.html \
+             diff
 
 
 # liquibase.drift.severity=[0|1|2|3|4]
